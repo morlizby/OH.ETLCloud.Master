@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "dbIOs+6kAvZb9JsagZV9U1nKiK2McPcSyRKi7/Y8JCI=",
+  "Source": "OH.ETL.WebApi",
+  "BasePath": "_content/OH.ETL.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

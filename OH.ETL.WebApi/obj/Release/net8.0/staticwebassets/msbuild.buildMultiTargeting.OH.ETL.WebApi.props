@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OH.ETL.WebApi.props" />
+</Project>

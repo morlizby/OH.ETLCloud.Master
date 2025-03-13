@@ -1,0 +1,6 @@
+@DataETLBuilder_HostAddress = http://localhost:5051
+
+GET {{DataETLBuilder_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

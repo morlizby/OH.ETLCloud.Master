@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\bin\Release\net8.0\OH.ETL.Core.deps.json
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\bin\Release\net8.0\OH.ETL.Core.dll
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\bin\Release\net8.0\OH.ETL.Core.pdb
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\bin\Release\net8.0\OH.ETL.Entities.dll
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\bin\Release\net8.0\OH.ETL.Entities.pdb
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\obj\Release\net8.0\OH.ETL.Core.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\obj\Release\net8.0\OH.ETL.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\obj\Release\net8.0\OH.ETL.Core.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\obj\Release\net8.0\OH.ETL.Core.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\obj\Release\net8.0\OH.ETL.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\obj\Release\net8.0\OH.ETL.C.8582A203.Up2Date
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\obj\Release\net8.0\OH.ETL.Core.dll
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\obj\Release\net8.0\refint\OH.ETL.Core.dll
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\obj\Release\net8.0\OH.ETL.Core.pdb
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Core\OH.ETL.Core\obj\Release\net8.0\ref\OH.ETL.Core.dll
