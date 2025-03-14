@@ -1,28 +1,39 @@
-﻿
-using OH.ETL.Core.Enums;
+﻿using OH.ETL.Core.Enums;
 using OH.ETL.Core.Extensions;
 
-namespace OH.DataAcquire.Core.Utils;
+namespace OH.ETL.Core.Utils;
 
 public class WebResponseContent
 {
+    /// <summary>
+    /// 返回代码
+    /// </summary>
+    public int ResCode { get; set; }
+    /// <summary>
+    /// 执行状态
+    /// </summary>
+    public bool Success { get; set; }
+    /// <summary>
+    /// 返回消息
+    /// </summary>
+    public string ResMsg { get; set; }
+    /// <summary>
+    /// 返回内容(需解析)
+    /// </summary>
+    public object Data { get; set; }
+
+
     public WebResponseContent()
     {
     }
-    public WebResponseContent(bool status)
+    public WebResponseContent(bool success)
     {
-        this.Status = status;
+        this.Success = success;
     }
-    public bool Status { get; set; }
-    public int Code { get; set; }
-
-    public string Message { get; set; }
-
-    public object Data { get; set; }
 
     public WebResponseContent OK()
     {
-        this.Status = true;
+        this.Success = true;
         return this;
     }
 
@@ -30,21 +41,21 @@ public class WebResponseContent
     {
         get { return new WebResponseContent(); }
     }
-    public WebResponseContent OK(string message = null, object data = null)
+    public WebResponseContent OK(string resMsg = null, object data = null)
     {
-        this.Status = true;
-        this.Message = message;
-        this.Data = data;
+        this.Success = true;
+        this.ResMsg = resMsg;
+        Data = data;
         return this;
     }
     public WebResponseContent OK(ResponseType responseType)
     {
         return Set(responseType, true);
     }
-    public WebResponseContent Error(string message = null)
+    public WebResponseContent Error(string resMsg = null)
     {
-        this.Status = false;
-        this.Message = message;
+        this.Success = false;
+        this.ResMsg = resMsg;
         return this;
     }
     public WebResponseContent Error(ResponseType responseType)
@@ -54,30 +65,30 @@ public class WebResponseContent
     public WebResponseContent Set(ResponseType responseType)
     {
         bool? b = null;
-        return this.Set(responseType, b);
+        return Set(responseType, b);
     }
     public WebResponseContent Set(ResponseType responseType, bool? status)
     {
-        return this.Set(responseType, null, status);
+        return Set(responseType, null, status);
     }
     public WebResponseContent Set(ResponseType responseType, string msg)
     {
         bool? b = null;
-        return this.Set(responseType, msg, b);
+        return Set(responseType, msg, b);
     }
-    public WebResponseContent Set(ResponseType responseType, string msg, bool? status)
+    public WebResponseContent Set(ResponseType responseType, string resMsg, bool? success)
     {
-        if (status != null)
+        if (success != null)
         {
-            this.Status = (bool)status;
+            this.Success = (bool)success;
         }
-        this.Code = (int)responseType;
-        if (!string.IsNullOrEmpty(msg))
+        ResCode = (int)responseType;
+        if (!string.IsNullOrEmpty(resMsg))
         {
-            Message = msg;
+            this.ResMsg = resMsg;
             return this;
         }
-        Message = responseType.GetMsg();
+        this.ResMsg = responseType.GetMsg(resMsg);
         return this;
     }
 }

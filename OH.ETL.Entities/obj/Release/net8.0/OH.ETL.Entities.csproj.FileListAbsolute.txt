@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Entities\bin\Release\net8.0\OH.ETL.Entities.deps.json
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Entities\bin\Release\net8.0\OH.ETL.Entities.dll
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Entities\bin\Release\net8.0\OH.ETL.Entities.pdb
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Entities\obj\Release\net8.0\OH.ETL.Entities.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Entities\obj\Release\net8.0\OH.ETL.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Entities\obj\Release\net8.0\OH.ETL.Entities.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Entities\obj\Release\net8.0\OH.ETL.Entities.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Entities\obj\Release\net8.0\OH.ETL.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Entities\obj\Release\net8.0\OH.ETL.Entities.dll
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Entities\obj\Release\net8.0\refint\OH.ETL.Entities.dll
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Entities\obj\Release\net8.0\OH.ETL.Entities.pdb
+C:\Users\Administrator\source\repos\OH.ETLCloud.Master\OH.ETL.Entities\obj\Release\net8.0\ref\OH.ETL.Entities.dll

@@ -68,6 +68,9 @@ public class DtoEmployee
     /// </summary>
     public string BranchId { get; set; }
 
+    /// <summary>
+    /// 部门名称
+    /// </summary>
     public string BranchName { get; set; }
     /// <summary>
     /// 证件号

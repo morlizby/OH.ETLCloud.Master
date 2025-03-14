@@ -85,7 +85,7 @@ public class OAuth2Service : IOAuth2Service
         if (response.IsSuccessStatusCode)
         {
             var content = await response.Content.ReadAsStringAsync();
-            var ResContent = content.DeserializeObject<ResponseContent>();
+            var ResContent = content.DeserializeObject<WebResponseContent>();
             return ResContent.Data;
         }
 
@@ -112,7 +112,7 @@ public class OAuth2Service : IOAuth2Service
         if (response.IsSuccessStatusCode)
         {
             var content = await response.Content.ReadAsStringAsync();
-            var ResContent = content.DeserializeObject<ResponseContent>();
+            var ResContent = content.DeserializeObject<WebResponseContent>();
             return ResContent.Data;
         }
 
@@ -141,7 +141,7 @@ public class OAuth2Service : IOAuth2Service
             if (CheckHtml(content))
                 return ClearAllHtml(content);
 
-            var ResContent = content.DeserializeObject<ResponseContent>();
+            var ResContent = content.DeserializeObject<WebResponseContent>();
             return ResContent.Data;
         }
 
@@ -163,7 +163,7 @@ public class OAuth2Service : IOAuth2Service
         if (response.IsSuccessStatusCode)
         {
             var content = await response.Content.ReadAsStringAsync();
-            var ResContent = content.DeserializeObject<ResponseContent>();
+            var ResContent = content.DeserializeObject<WebResponseContent>();
             return ResContent.Data;
         }
 
