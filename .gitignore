@@ -4,3 +4,6 @@
 
 /.vs
 /DataETLBuilder/bin
+/obj
+/OH.ETL.Core/bin
+/OH.ETL.Core/obj
