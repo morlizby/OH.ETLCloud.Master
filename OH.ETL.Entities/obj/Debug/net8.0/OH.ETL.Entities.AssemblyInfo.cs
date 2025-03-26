@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OH.ETL.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce04bbbbfa3d8a21cfd307ed0586e3f53b0e4702")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad4c1b8f04250ff0a7022bb5d8a5f5d55e961331")]
 [assembly: System.Reflection.AssemblyProductAttribute("OH.ETL.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OH.ETL.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

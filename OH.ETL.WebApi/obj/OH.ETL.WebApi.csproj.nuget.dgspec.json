@@ -143,7 +143,7 @@
         "projectName": "OH.ETL.Entities",
         "projectPath": "C:\\Users\\Administrator\\source\\repos\\OH.ETLCloud.Master\\OH.ETL.Entities\\OH.ETL.Entities.csproj",
         "packagesPath": "F:\\VisualStudio\\NuGetPackages",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\oh.etlcloud.master\\OH.ETL.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\source\\repos\\OH.ETLCloud.Master\\OH.ETL.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\VisualStudio\\Shared\\NuGetPackages\\"
@@ -216,7 +216,7 @@
         "projectName": "OH.ETL.WebApi",
         "projectPath": "C:\\Users\\Administrator\\source\\repos\\OH.ETLCloud.Master\\OH.ETL.WebApi\\OH.ETL.WebApi.csproj",
         "packagesPath": "F:\\VisualStudio\\NuGetPackages",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\oh.etlcloud.master\\OH.ETL.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\source\\repos\\OH.ETLCloud.Master\\OH.ETL.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\VisualStudio\\Shared\\NuGetPackages\\"
